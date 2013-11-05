@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+@font-face {
+ font-family: 'thaisans';
+ src:url('fonts/thaisans/eot/ThaiSansNeue-Light.eot');
+ src:url('fonts/thaisans/eot/ThaiSansNeue-Light.eot?iefix') format('eot'),
+     url('fonts/thaisans/woff/ThaiSansNeue-Light.woff') format('woff'),
+     url('fonts/thaisans/TrueType/ThaiSansNeue-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+* {
+	font-family: thaisans, Tahoma, sans-serif;
+	font-size: 14pt;
+	color: grey;
+}
+
+body { margin: 0px; padding: 0px; }
+
+a { 
+	text-decoration: none;
+	display: block;
+}
+a:hover { #text-decoration: underline; }
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+#container { width: 1000px; margin: 20px auto; }
+
+#content { margin-left: 210px; height : 100%; }
+
+#header { width: 1000px; margin: 0 auto; padding: 20px 0px 30px 0px; }
+
+#login { text-align: right; }
+
+#footer { border-top: 1px solid #f2f2f2; width: 100%; float: left; margin-top: 50px;}
+#footer .text {
+	width: 1000px;
+	margin: 0 auto;
+	color: silver;
+	text-align: right;
+}
+
+#leftside { height: 100%; float: left; }
+
+div.menu { padding-right: 10px;	width: 190px; }
+div.menu ul { list-style: none; padding: 0px; margin: 0px; }
+div.menu li.submenu { padding: 0px 0px; }
+div.menu li.submenu label.selected {border-bottom: 2px solid #e2e2e2;}
+div.menu li.submenu:hover { background: none; }
+div.menu li.submenu ul { margin-left: 20px;	font-size : 0.8em; }
+div.menu li { padding: 5px 5px; cursor: pointer; border-bottom: 1px solid #eee; }
+div.menu li.submenu label { padding: 5px 5px; font-size : 1em; display: block; }
+div.menu li:hover,div.menu label:hover { background: #fafafa; }
+div.menu ul li.last { border-bottom: 0px; }
+
+div.nav {
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	padding-left: 5px;
+	height: 24px;
+	padding: 3px;
+}
+div.nav ol {
+	width: 1000px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px auto;
+}
+div.nav ol li { float: left; }
+div.nav ol li a {
+	background: url("images/nav.png") no-repeat center right;
+	margin-right: 5px;
+	padding-right: 15px;
+}

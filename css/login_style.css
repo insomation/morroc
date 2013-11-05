@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+@font-face {
+ font-family: 'thaisans';
+ src:url('fonts/thaisans/eot/ThaiSansNeue-Light.eot');
+ src:url('fonts/thaisans/eot/ThaiSansNeue-Light.eot?iefix') format('eot'),
+     url('fonts/thaisans/woff/ThaiSansNeue-Light.woff') format('woff'),
+     url('fonts/thaisans/TrueType/ThaiSansNeue-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+* {
+	font-family: thaisans, Tahoma, sans-serif;
+	font-size: 16pt;
+	color: grey;
+}
+
+body { margin: 0px; padding: 0px; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#login {
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+	position: absolute;
+}
+
+/* all */
+	::-webkit-input-placeholder { font-size: 1.3em; }
+	::-moz-placeholder { font-size: 1.3em; } /* firefox 19+ */
+	:-ms-input-placeholder { font-size: 1.3em; } /* ie */
+	input:-moz-placeholder { font-size: 1.3em; }
+
+input {
+	margin: 0 0 14px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 200px;
+	height: 21px;
+	line-height: 24px;
+	padding: 7px 2px 7px 10px;
+	background-size: 25px 1px;
+	border: 1px solid #d6d6d6;
+}
+
+.btt_submit {
+	color: gray;
+	font-size: 0.9em;
+	line-height: 15px;
+	padding: 9px 28px;
+	background: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #1992d9;
+}
+
+.btt_submit:hover {
+	background: #d7d7d7;
+	background: -webkit-linear-gradient(#fff,#d7d7d7);
+	background: -moz-linear-gradient(#fff,#d7d7d7);
+	background: linear-gradient(#fff,#d7d7d7);
+}
+
+#login div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-login {
+	font-size: 1.5em;
+}
+
+.footer-login {
+	text-align: center;	
+	font-size: 0.8em;
+	color: silver;
+}
+
+#lang {
+	position: absolute;
+	right: 0;
+	padding-top: 10px;
+	padding-right: 20px;
+	z-index: 100
+}
