@@ -1,44 +1,26 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class User extends CI_Controller {
-       
 
-	public function __construct()
-	{
-		parent::__construct();
-		$this->_get_lang('user');
-	}
-	
+	public function __construct()	{		parent::__construct();		$this->myclass->get_lang('user');	}
+
 	public function index()
 	{
 		redirect('user/login');
 	}
 	
-	private function _get_lang($module=NULL)
-	{
-		if ($this->session->userdata('lang') == 'th')
-			$this->lang->load($module, 'th');
-		else
-			$this->lang->load($module, 'en');
-	}
-	
 	public function login()
 	{
-		$this->_get_lang('login');
+		$this->myclass->get_lang('login');
 		$this->load->view('user/login');
 	}
 	
 	public function set_th()
 	{
-		$this->session->set_userdata('lang', 'th');
-		redirect($_SERVER['HTTP_REFERER']);
+		$this->myclass->set_lang('th');
 	}
 	
-	public function set_en()
-	{
-		$this->session->set_userdata('lang', 'en');
-		redirect($_SERVER['HTTP_REFERER']);
-	}
+	public function set_en()	{		$this->myclass->set_lang('en');	}
 	
 	public function forgot_pass()
 	{
@@ -48,9 +30,8 @@ class User extends CI_Controller {
 	
 	public function home()
 	{
-		$data['nav'] = $this->navigation->get_nav(1);
-		
-		$this->load->view('user/header',$data);
+		$data_nav['nav'] = $this->navigation->get_nav(MENU_HOME);
+		$this->load->view('user/header',$data_nav);
 		$this->load->view('user/home');
 		$this->load->view('user/footer');
 	}

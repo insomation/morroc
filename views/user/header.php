@@ -84,18 +84,17 @@
 						<ul>
 							<li><?php echo anchor('message/write', lang('user_message_write'));?></li>
 							<li><?php echo anchor('message/inbox', lang('user_message_inbox'));?></li>
-							<li><?php echo anchor('message/sentbox', lang('user_message_sentbox'));?></li>
-							<li class="last"><a href="#">Junk</a></li>
+							<li class="last"><?php echo anchor('message/sentbox', lang('user_message_sentbox'));?></li>
 						</ul>
 					</li>
 					
 					<li class="submenu">
 						<label><a href="#"><?php echo lang('user_statistic');?></a></label>
 						<ul>
-							<li><a href="#"><?php echo lang('user_statistic_income_outcome');?></a></li>
+							<li><a href="#"><?php echo lang('user_statistic_income');?></a></li>
 							<li><a href="#"><?php echo lang('user_statistic_topviews');?></a></li>
 							<li><a href="#"><?php echo lang('user_statistic_toprating');?></a></li>
-							<li class="last"><a href="#"><?php echo lang('user_statistic_best_sale');?></a></li>
+							<li class="last"><a href="#"><?php echo lang('user_statistic_bestseller');?></a></li>
 						</ul>
 					</li>
 					<li class="last"><a href="#"><?php echo lang('user_setting');?></a></li>

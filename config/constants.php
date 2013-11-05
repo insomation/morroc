@@ -42,5 +42,30 @@ define('DIR_IMAGES',APP.'/images');
 define('DIR_CSS',APP.'/css');
 define('DIR_JS',APP.'/js');
 
+define('MENU_HOME', 							1);
+define('MENU_PRODUCTS', 						2);
+define('MENU_ORDERS', 							3);
+define('MENU_SHOP', 							4);
+define('MENU_SHOP_FIRSTPAGE', 					5);
+define('MENU_SHOP_ABOUTSHOP', 					6);
+define('MENU_SHOP_GALLERIRES', 					7);
+define('MENU_SHOP_PAYMENT', 					8);
+define('MENU_SHOP_CONTACTUS', 					9);
+define('MENU_SHOP_SETTING', 					10);
+define('MENU_MESSAGE', 							11);
+define('MENU_MESSAGE_WRITE', 					12);
+define('MENU_MESSAGE_INBOX', 					13);
+define('MENU_MESSAGE_SENTBOX', 					14);
+define('MENU_STATISTIC', 						15);
+define('MENU_STATISTIC_INCOME', 				16);
+define('MENU_STATISTIC_TOPVIEWS',				17);
+define('MENU_STATISTIC_TOPRATING', 				18);
+define('MENU_STATISTIC_BESTSELLER', 			19);
+define('MENU_SETTING',				 			20);
+
+
+
+
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
