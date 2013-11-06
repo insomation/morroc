@@ -97,7 +97,7 @@
 							<li class="last"><a href="#"><?php echo lang('user_statistic_bestseller');?></a></li>
 						</ul>
 					</li>
-					<li class="last"><a href="#"><?php echo lang('user_setting');?></a></li>
+					<li class="last"><?php echo anchor('user/setting', lang('user_setting'));?></li>
 				</ul>
 			</div>
 		</div><!-- End of leftside-->

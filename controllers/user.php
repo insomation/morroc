@@ -36,6 +36,15 @@ class User extends CI_Controller {
 		$this->load->view('user/footer');
 	}
 	
+	public function setting()
+	{
+		$data_nav['nav'] = $this->navigation->get_nav(MENU_SETTING);
+		
+		$this->load->view('user/header',$data_nav);
+		$this->load->view('user/setting');
+		$this->load->view('user/footer');
+	}
+	
 	public function register()
 	{
 		$this->load->view('user/register');
