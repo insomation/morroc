@@ -8,7 +8,7 @@
 
 	<div id="footer">
 
-		<div class="text">insomations | about insomation </div>
+		<div class="text">insomation | about insomation </div>
 
 	</div>
 
