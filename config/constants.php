@@ -43,25 +43,26 @@ define('DIR_CSS',APP.'/css');
 define('DIR_JS',APP.'/js');
 
 define('MENU_HOME', 							1);
-define('MENU_PRODUCTS', 						2);
-define('MENU_ORDERS', 							3);
-define('MENU_SHOP', 							4);
-define('MENU_SHOP_FIRSTPAGE', 					5);
-define('MENU_SHOP_ABOUTSHOP', 					6);
-define('MENU_SHOP_GALLERIRES', 					7);
-define('MENU_SHOP_PAYMENT', 					8);
-define('MENU_SHOP_CONTACTUS', 					9);
-define('MENU_SHOP_SETTING', 					10);
-define('MENU_MESSAGE', 							11);
-define('MENU_MESSAGE_WRITE', 					12);
-define('MENU_MESSAGE_INBOX', 					13);
-define('MENU_MESSAGE_SENTBOX', 					14);
-define('MENU_STATISTIC', 						15);
-define('MENU_STATISTIC_INCOME', 				16);
-define('MENU_STATISTIC_TOPVIEWS',				17);
-define('MENU_STATISTIC_TOPRATING', 				18);
-define('MENU_STATISTIC_BESTSELLER', 			19);
-define('MENU_SETTING',				 			20);
+define('MENU_PRODUCTS', 						20);
+define('MENU_ORDERS', 							30);
+define('MENU_SHOP', 							40);
+define('MENU_SHOP_FIRSTPAGE', 					41);
+define('MENU_SHOP_ABOUTUS', 					42);
+define('MENU_SHOP_PROMOTION', 					43);
+define('MENU_SHOP_GALLERIRES', 					44);
+define('MENU_SHOP_PAYMENT', 					45);
+define('MENU_SHOP_CONTACTUS', 					46);
+define('MENU_SHOP_SETTING', 					47);
+define('MENU_MESSAGE', 							50);
+define('MENU_MESSAGE_WRITE', 					51);
+define('MENU_MESSAGE_INBOX', 					52);
+define('MENU_MESSAGE_SENTBOX', 					53);
+define('MENU_STATISTIC', 						60);
+define('MENU_STATISTIC_INCOME', 				61);
+define('MENU_STATISTIC_TOPVIEWS',				62);
+define('MENU_STATISTIC_TOPRATING', 				63);
+define('MENU_STATISTIC_BESTSELLER', 			63);
+define('MENU_SETTING',				 			65);
 
 
 

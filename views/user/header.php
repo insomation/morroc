@@ -69,11 +69,12 @@
 						<label><a href="#"><?php echo lang('user_shop');?></a></label>
 						<ul>
 							<li><?php echo anchor('shop/firstpage', lang('user_shop_firstpage'));?></li>
-							<li><?php echo anchor('shop/aboutshop', lang('user_shop_aboutshop'));?></li>
+							<li><?php echo anchor('shop/aboutus', lang('user_shop_aboutus'));?></li>
+							<li><?php echo anchor('shop/promotion', lang('user_shop_promotion'));?></li>
 							<li><?php echo anchor('shop/galleries', lang('user_shop_galleries'));?></li>
 							<li><?php echo anchor('shop/payment', lang('user_shop_payment'));?></li>
 							<li><?php echo anchor('shop/contactus', lang('user_shop_contactus'));?></li>							
-							<li class="last"><?php echo anchor('#', lang('user_shop_setting'));?></li>
+							<li class="last"><?php echo anchor('shop/setting', lang('user_shop_setting'));?></li>
 						</ul>
 					</li>
 					
