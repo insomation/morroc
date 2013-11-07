@@ -36,11 +36,12 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-define('URL','http://localhost:8888/morroc/');
-define('APP',URL.'app');
+define('URL','http://localhost:8888/morroc');
+define('APP',URL.'/app');
 define('DIR_IMAGES',APP.'/images');
 define('DIR_CSS',APP.'/css');
 define('DIR_JS',APP.'/js');
+define('DIR_TINYMCE',APP.'/tinymce');
 
 define('MENU_HOME', 							1);
 define('MENU_PRODUCTS', 						20);
